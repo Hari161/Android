@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#808080"
-    android:orientation="vertical"
-    >
+    tools:context=".MainActivity">
 
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/handmade"
+        tools:layout_editor_absoluteX="-82dp"
+        tools:layout_editor_absoluteY="-239dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello!!"
+        android:text="Happy Birthday GURU!!!!"
         android:textColor="#0000ff"
-        android:layout_marginLeft="50dp"
         android:textSize="30sp"
-        android:layout_weight="1"
+       android:layout_marginTop="25dp"
         android:textAllCaps="true"
-/>
+
+         android:paddingLeft="25dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="How r u"
-        android:layout_weight="1"
+        android:text="By Hari"
         android:textColor="#0000ff"
         android:textSize="45sp"
-        android:layout_marginLeft="50dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Good morning"
-        android:textColor="#0000ff"
-        android:textSize="45sp"
-        android:layout_marginLeft="50dp"
-        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="25dp"
+        android:layout_marginBottom="35dp"
         />
 
 
-</LinearLayout>
+</RelativeLayout>
